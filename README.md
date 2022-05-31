@@ -2,7 +2,7 @@
 
 
 
-Openshift Resources:<br
+Openshift Resources:<br>
 https://docs.openshift.com/container-platform/4.8/applications/deployments/what-deployments-are.html <br>
 Search for openshift on this page -> https://www.tutorialworks.com/technologies/<br>
 https://cloud.ibm.com/docs/solution-tutorials?topic=solution-tutorials-scalable-webapp-openshift<br>
