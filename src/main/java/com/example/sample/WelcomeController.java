@@ -14,14 +14,14 @@ public class WelcomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	@ResponseBody
 	public String showWelcomePage() {
-		return "welcome to Springboot Sample Application";
+		return "welcome to Springboot Sample Application v9";
 	}
 
 	@RequestMapping("/app")
 	@ResponseBody
 	public String getHostName(ModelMap model) throws UnknownHostException {
 		String hostname = InetAddress.getLocalHost().getHostName();
-		System.out.println("Hello from: " + hostname);
+		System.out.println("Hello from: v9 " + hostname);
 		return "Hello Human, from " + hostname;
 	}
 
